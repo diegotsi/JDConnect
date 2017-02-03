@@ -51,13 +51,16 @@ body{
 	text-align: center;
 }
 #chat .message-receive,#chat .message-send{
-	background-color: rgb(255,222,0);
+	background-color: #efefef;
 	border-radius: 20px;
 	padding:10px;
-	color: #fff;
+	color: #888;
 	min-width: 200px;
 }
 
+#chat .message-send{
+	color: #fff;
+}
 #chat .message{
 	margin-bottom: 15px;
 }
