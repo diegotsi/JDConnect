@@ -1,0 +1,18 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#home header{
+	background-color: #fff;
+	padding: 10px;
+	border:2px solide #efefef;
+	height: auto;
+	width: auto;
+}
+
+#home header h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #666;
+}

@@ -1,0 +1,81 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.page header{
+	background-color: #fff;
+	padding: 10px;
+	border-bottom:2px solid #efefef;
+	height: auto;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+.page header h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #666;
+	text-align: center;
+}
+
+#home .message{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #efefef;
+	padding: 5px;
+}
+
+#home .message:active{
+	background-color: rgba(239,239,239,0.2);
+}
+#home .message p.name-person{
+	font-weight: 500;
+	color: #666;
+	font-size: 20px;
+}
+
+#home .message p.last-message{
+
+}
+
+#home .message .not-read i{
+	margin-top: 10px;
+	font-size: 40px;
+	color: rgb(54,124,43);
+}
+
+#chat .hora-conversa{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #888;
+	text-align: center;
+}
+#chat .message-receive,#chat .message-send{
+	background-color: rgb(255,222,0);
+	border-radius: 20px;
+	padding:10px;
+	color: #fff;
+	min-width: 200px;
+}
+
+#chat .message{
+	margin-bottom: 15px;
+}
+#chat .message .box{
+	-webkit-box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+-moz-box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+width: 200px;
+margin-left: 8px;
+text-align: center;
+}
+
+#chat .message .box p{
+	padding: 5px;
+	font-weight: 500;
+	color: #81CFE0;
+}
+#chat .message-send{
+	background-color: rgb(54,124,43);
+}
+
