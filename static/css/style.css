@@ -2,6 +2,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+
+.ocultar{
+	display: none;
+}
 .page header{
 	background-color: #fff;
 	padding: 10px;
@@ -9,6 +13,13 @@ body{
 	height: auto;
 	width: auto;
 	margin-bottom: 15px;
+	height: 80px;
+}
+
+.page header i{
+	color: #666;
+	font-size: 25px;
+	margin-top: 50%;
 }
 
 .page header h2{
@@ -18,7 +29,26 @@ body{
 	color: #666;
 	text-align: center;
 }
+.buscar{
+	position: absolute;
+	height: 80px;
+	border-bottom: 2px solid #efefef;
+	z-index: 9999;
+	background-color:rgb(54,124,43); 
+	width: 100%;
+	padding: 10px;
+}
 
+.buscar form input{
+	width: 100%;
+	border: none;
+	height: 80px;
+	background: transparent;
+}
+
+.buscar form input::-moz-input-placeholder{
+	color: #fff;
+}
 #home .message{
 	margin-bottom: 15px;
 	border-bottom: 1px solid #efefef;
@@ -81,4 +111,6 @@ text-align: center;
 #chat .message-send{
 	background-color: rgb(54,124,43);
 }
+
+
 
