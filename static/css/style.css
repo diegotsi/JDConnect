@@ -8,6 +8,9 @@ body{
     height: 100vh;
 }
 
+.fa-arrow-left{
+	transition: all 0.5s;
+}
 .login .overlay{
 	height: 100vh;
 	background-color: rgba(54,124,43,0.9);
@@ -51,6 +54,7 @@ border: 1px solid #efefef;
 	margin-top: 15px;
 	text-transform: uppercase;
 	font-weight: 700;
+	 letter-spacing: 1px;
 
 }
 
@@ -97,6 +101,7 @@ border: 1px solid #efefef;
 	color: #666;
 	text-align: center;
 	transition: all 0.5s;
+	
 }
 .buscar{
 	position: fixed;

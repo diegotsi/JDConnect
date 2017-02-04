@@ -153,13 +153,20 @@
 		$(window).scroll(function (event) {
     		var scroll = $(window).scrollTop();
     		if(scroll >20){
-    			$("header").css("height", "45px"); 
+    			$("header").css("height", "55px"); 
+    			$(".fa-arrow-left").css("font-size","15px");
     			$("header h2").css("font-size", "15px");
+    			$("header h2").css("margin-top", "10px");
+    			$("header i").css("margin-top", "10px");
+
     		}
 
     		if(scroll == 0){
     			$("header").css("height", "80px");
     			$("header h2").css("font-size", "20px");
+    			$(".fa-arrow-left").css("font-size","25px");
+    			$("header h2").css("margin-top", "20px");
+    			$("header i").css("margin-top", "20px");
     		}
     	});
 	});
