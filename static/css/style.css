@@ -2,6 +2,9 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+.conversa{
+	margin-top: 100px;
+}
 
 .ocultar{
 	display: none;
@@ -11,9 +14,13 @@ body{
 	padding: 10px;
 	border-bottom:2px solid #efefef;
 	height: auto;
-	width: auto;
-	margin-bottom: 15px;
+	margin-bottom: 80px;
 	height: 80px;
+	position: fixed;
+	z-index: 8;
+	width: 100%;
+	top: 0px;
+	transition: all 0.5s;
 }
 
 .page header i{
@@ -28,9 +35,10 @@ body{
 	font-size: 20px;
 	color: #666;
 	text-align: center;
+	transition: all 0.5s;
 }
 .buscar{
-	position: absolute;
+	position: fixed;
 	height: 80px;
 	border-bottom: 2px solid #efefef;
 	z-index: 9999;
@@ -88,6 +96,11 @@ body{
 	min-width: 200px;
 }
 
+#chat .box i{
+	margin-top: 20px;
+	font-size: 50px;
+	color: #888;
+}
 #chat .message-send{
 	color: #fff;
 }
@@ -103,6 +116,14 @@ margin-left: 8px;
 text-align: center;
 }
 
+#chat .message .document{
+	border: 1px solid #efefef;
+	-webkit-box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+-moz-box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+box-shadow: -1px 0px 5px 0px rgba(219,219,219,1);
+width: 200px;
+}
+
 #chat .message .box p{
 	padding: 5px;
 	font-weight: 500;
@@ -112,5 +133,31 @@ text-align: center;
 	background-color: rgb(54,124,43);
 }
 
+.identificador{
+	margin-left: 20px;
+	font-size: 12px;
+	color: #bbb;
 
+}
 
+.inferior{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color:#fff;
+	padding: 10px;
+	border-top: 2px solid #efefef;
+}
+
+.inferior input{
+	background: transparent; 
+	border: none;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+.inferior i{
+	font-size: 45px;
+	color: rgb(255,222,0);
+}
