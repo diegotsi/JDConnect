@@ -101,7 +101,7 @@ border: 1px solid #efefef;
 	color: #666;
 	text-align: center;
 	transition: all 0.5s;
-	
+
 }
 .buscar{
 	position: fixed;
@@ -117,6 +117,8 @@ border: 1px solid #efefef;
 	width: 100%;
 	border: none;
 	height: 80px;
+	color: #fff;
+	font-size: 20px;
 	background: transparent;
 }
 
